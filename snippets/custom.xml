@@ -69,6 +69,7 @@
   <!-- Packages -->
   <project path="packages/apps/GameSpace" name="packages_apps_GameSpace" remote="PixelOS-Droid" />
   <project path="packages/apps/CarrierConfig" name="packages_apps_CarrierConfig" remote="PixelOS-Droid" />
+  <project path="packages/apps/FaceUnlock" name="packages_apps_FaceUnlock" remote="PixelOS-Droid" />
   <project path="packages/apps/TouchGestures" name="packages_apps_TouchGestures" remote="PixelOS-Droid" />
   <project path="packages/apps/Updates" name="packages_apps_Updates" remote="PixelOS" />
 
