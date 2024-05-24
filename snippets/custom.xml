@@ -17,6 +17,10 @@
            fetch="https://github.com/PixelOS-Droid"
            revision="refs/heads/fourteen-plus" />
 
+  <remote  name="kei"
+           fetch="https://gitlab.com/kei-space/pixelos"
+           revision="fourteen" />
+
   <!-- Rootdir -->
   <project path="bionic" name="bionic" groups="pdk" remote="PixelOS" />
 
@@ -74,8 +78,9 @@
 
   <!-- Vendor -->
   <project path="vendor/aosp" name="vendor_aosp" remote="PixelOS-Droid" />
+  <project path="vendor/aosp/extras" name="vendor_extras" remote="kei" />
   <project path="vendor/custom-preference" name="vendor_custom-preference" remote="PixelOS-Droid" />
   <project path="vendor/microsoft" name="vendor_microsoft" remote="PixelOS" />
-  <project path="vendor/gms" name="vendor_gms" clone-depth="1" remote="PixelOS-Devices-Gitlab" />
+  <project path="vendor/gms" name="vendor_gms" clone-depth="1" remote="kei" />
 
 </manifest>
